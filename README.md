@@ -1,38 +1,45 @@
-# skoleOS 🎓
-**Fremtidens Open Source Skolecomputer (Hardware & OS Concept)**
+# SkoleOS 🎓
 
-Velkommen til `skoleOS` – et Proof of Concept-projekt, der har til formål at revolutionere hardware- og softwareinfrastrukturen i de danske folkeskoler. 
-
-Målet er at bygge et bæredygtigt, privatlivs-sikkert og billigt alternativ til lukkede økosystemer (som Google Chromebooks), der tvinger skoler til at smide fungerende computere ud på grund af licens-udløb (AUE).
+**SkoleOS** er et uafhængigt, fjerlet og distraktionsfrit operativsystem udviklet specifikt til at genoplive og fremtidssikre folkeskolens Chromebooks. Ved at fjerne tech-giganternes lukkede firmware og overvågning forvandler SkoleOS eksisterende hardware til topsikrede, lynhurtige læringsmaskiner med 100% lokal forældre- og lærerkontrol.
 
 ---
 
 ## 💡 Visionen
-Skolerne bruger i dag næsten udelukkende web-apps (Aula, Google Docs, SkoleTube). Derfor behøver vi ikke tunge, dyre computere med lukkede styresystemer, der overvåger eleverne. Vi har brug for en "Purpose-Built" maskine, der er skabt *kun* til undervisning.
 
-`skoleOS` er ikke bare et styresystem; det er et komplet hardware- og softwarekoncept bygget omkring **Raspberry Pi 5/Raspberry Pi Compute Module 5**.
+Danske skoler er i dag dybt afhængige af web-apps (Aula, Unilogin, Google Workspace, SkoleTube). Derfor er der intet behov for tunge, lukkede økosystemer, der overvåger eleverne og tvinger kommunerne til at skrotte fuldt funktionelle computere på grund af kunstige licens-udløb (AUE).
 
----
-
-## 🛠️ Nøglekoncepter (Under udvikling)
-
-* **Ingen Udløbsdato (Zero AUE):** Et letvægts Linux-styresystem, der aldrig nægter at opdatere, bare fordi computeren bliver ældre. Skolerne sparer millioner og reducerer e-skrot massivt.
-* **Privacy First (Chromium-baseret):** Styresystemet booter direkte ind i en ren Chromium-browser uden tech-giganternes indbyggede telemetri og sporing.
-* **Indbygget Maker-Port (Fysik & Teknologi):** Kabinettet designes med direkte adgang til Raspberry Pi'ens 30 GPIO-pins. Elever kan bygge kredsløb, motorer og sensorer direkte på deres egen skolecomputer uden at skolerne skal købe dyre Micro:bits.
-* **Right to Repair:** Designet i open-source 3D-printede/støbte materialer, hvor skærm, batteri og bundkort kan skiftes af skolens pedel på 5 minutter.
-* **Enterprise Klar uden oppustethed:** Ingen unødvendige apps eller indstillinger, som eleverne kan pille ved. 100% Kiosk/Skole-fokus.
+SkoleOS tager kontrollen over hardwaren tilbage. Vi erstatter standard-firmwaren med frigjort open-source firmware (coreboot/MrChromebox) og installerer et specialdesignet Linux-miljø, der udelukkende har ét fokus: **Undervisning og læringsro.**
 
 ---
 
-## 📊 Økonomien
-* **Nuværende marked:** Typisk Chromebook pris: ~3.000 - 3.500 kr.
-* **skoleOS Mål-pris:** ~1.600 kr. (Inkl. CM5 4GB RAM, skærm, sikkert BMS-batterisystem og kabinet).
+## 🛠️ Nøglefunktioner (Under aktiv udvikling)
+
+*   **♻️ Zero AUE (Ingen Udløbsdato):** Vi knuser Google AUE-deadline. SkoleOS opdaterer uanset computerens alder, hvilket sparer kommunerne for millioner og reducerer e-skrot massivt.
+*   **🔒 Privacy First:** Ingen Google-telemetri, sporing eller unødvendig dataindsamling. Alt kører på et rent, uafhængigt open-source fundament.
+*   **🛑 Undervisningsro i Kernen:** Intelligent blokering af spil, streaming og snyd under test. Filtreringen er bygget direkte ind i systemets fundament, så eleverne ikke kan omgå det via browser-indstillinger.
+*   **⚡ Intel N100 & x86 Optimering:** Systemet er optimeret til moderne x86-64 arkitektur (herunder de kraftige Intel N100-chips) samt ældre Chromebook-bundkort, hvilket giver en flyvende desktop-performance, der overgår traditionelle ARM-løsninger som Raspberry Pi.
+*   **💿 Hurtig Deployment:** Automatiseret og strømlinet installationsprocess (via `penguins-eggs` og en tilpasset `Calamares`-skal), så en hel klasse af Chromebooks kan flashes på få minutter fra USB.
 
 ---
 
-## 🚀 Status
-Dette projekt er i sin spæde **Idé & Proof of Concept-fase**. 
+## 📊 Økonomien & Bæredygtighed
 
-*Lige nu arbejdes der på hardware-skitser (kabinet, skærm og batteri-integration) samt valg af den optimale Linux-base.*
+*   **Traditionelt indkøb:** Ny Chromebook pr. elev: ~3.000 - 3.500 kr. + løbende licenser.
+*   **SkoleOS-modellen:** **0 kr. i hardwareindkøb.** Vi genopliver de maskiner, kommunerne *allerede* ejer og har stående på lagrene, og forlænger deres levetid i årevis.
 
-Vil du være med til at bygge fremtidens skolecomputer? Kontakt mig eller hold øje med dette repo for opdateringer.
+---
+
+## 🏛️ Kommunal Validering
+
+SkoleOS udvikles i tæt dialog med virkelighedens behov. Projektet understøttes og følges i dag aktivt af **4 danske kommuner**, der ser det enorme potentiale i at skabe mere fokuserede digitale klasseværelser og frigøre offentlige midler fra tech-giganternes licensfælder.
+
+---
+
+## 🚀 Næste Skridt i Udviklingen
+
+- [ ] Færdiggørelse af det visuelle SkoleOS-branding på installations-interfacet.
+- [ ] Integration og fintuning af den dertilhørende Forældre-App.
+- [ ] Test og fejlfinding af bootloader-konfigurationer på tværs af specifikke Chromebook-hardwaremodeller.
+
+---
+*Vil du være med til at befri folkeskolens computere? Hold øje med dette repository for opdateringer eller ræk ud.*

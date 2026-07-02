@@ -1,21 +1,16 @@
-MIT License
+SkoleOS - Licensbetingelser
 
-Copyright (c) 2026 math-hackGuld
+Ophavsret (c) 2026 math14f. Alle rettigheder forbeholdes.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Dette projekt er sat i verden for at befri folkeskolens computere, reducere e-skrot og spare de danske kommuner for millioner af kroner i unødvendige licenser. Derfor er systemet frit tilgængeligt for hele den offentlige uddannelsessektor.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. TILLADT BRUG (Gratis, frit og uden at spørge):
+- Private personer, lærere, it-nørder, elever og forældre.
+- Enkelte skoler (folkeskoler, friskoler, efterskoler osv.).
+- ENKLE KOMMUNER OG CENTRALE IT-AFDELINGER. I har fuld tilladelse til at downloade SkoleOS og udrulle det centralt på tværs af ALLE kommunens skoler og Chromebooks for at spare offentlige midler.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. STRENGT FORBUDT (Kræver skriftlig tilladelse fra math14f):
+- Større software-sammenslutninger, organisationer og platforme (herunder, men ikke begrænset til, OS2, OS2skole eller lignende) må IKKE kopiere, videredistribuere, omdøbe (rebrande) eller integrere denne kode i egne systemer.
+- Ingen organisationer eller virksomheder må tage dette projekt, lave mindre ændringer, og præsentere eller udgive det som deres eget produkt.
+
+Hvis en organisation, it-sammenslutning eller kommerciel virksomhed ønsker at bygge videre på SkoleOS eller optage det i deres portefølje, SKAL de kontakte math14f for at indgå en officiel aftale.

@@ -29,10 +29,6 @@ SkoleOS tager kontrollen over hardwaren tilbage. Vi erstatter standard-firmwaren
 
 ---
 
-## 🏛️ Kommunal Validering
-
-SkoleOS udvikles i tæt dialog med virkelighedens behov. Projektet understøttes og følges i dag aktivt af **4 danske kommuner**, der ser det enorme potentiale i at skabe mere fokuserede digitale klasseværelser og frigøre offentlige midler fra tech-giganternes licensfælder.
-
 ---
 
 ## 🚀 Næste Skridt i Udviklingen
